@@ -3,22 +3,26 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: black;
+}
 .player-card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
+  box-shadow: 0 4px 8px 0 grey;
   width: 200px;
   margin: 15px;
   display: inline-block;
   padding: 2px 16px;
   text-align: center;
   background-color: #f1f1f1;
+  border-radius: 10px;
 }
 .player-card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .player-card h3 {
-  font-size: 1.5em;
+  font-size: 1.5px;
 }
 
 .player-card p {
@@ -44,6 +48,5 @@
   max-width: 100%;
   height: auto;
   display: block;
-  border-radius: 10px; /* Example for rounded corners */
-  object-fit: cover; /* This could be cover, contain, etc., depending on your needs */
+  border-radius: 10px;
 }
