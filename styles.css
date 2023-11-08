@@ -13,3 +13,37 @@
   text-align: center;
   background-color: #f1f1f1;
 }
+.player-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.player-card h3 {
+  font-size: 1.5em;
+}
+
+.player-card p {
+  font-size: 1em;
+}
+
+.player-card button {
+  margin-top: 10px;
+  padding: 5px;
+  width: 80%;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.player-card button:hover {
+  background-color: teal;
+}
+
+.player-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px; /* Example for rounded corners */
+  object-fit: cover; /* This could be cover, contain, etc., depending on your needs */
+}
